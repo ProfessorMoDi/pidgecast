@@ -1,0 +1,5 @@
+company,scenario,workable_days,expected_revenue,low80,high80,pct_per_workable_day,extrapolated
+Peter Ummels (Brunssum),GOOD weather,7,641547,109935,3743851,12.4,True
+Peter Ummels (Brunssum),BAD weather,2,357360,61237,2085435,12.4,True
+Gilde GB (Valkenswaard),GOOD weather,7,206929,31518,1358569,9.3,True
+Gilde GB (Valkenswaard),BAD weather,2,132903,20243,872560,9.3,True

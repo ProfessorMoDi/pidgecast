@@ -1,0 +1,1437 @@
+{
+  "S1_ummels": [
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "coef": 0.13050564948743623,
+      "p": 0.04312640808010306,
+      "pct_per_unit": 13.940437692608976,
+      "r2": 0.24996698403571638
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "windy_days",
+      "coef": -2.126497994888002,
+      "p": 0.15435250982767523,
+      "pct_per_unit": -88.07458077729751,
+      "r2": 0.2847582823693682
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heavy_rain_days",
+      "coef": -0.06566741151620614,
+      "p": 0.4492843957254914,
+      "pct_per_unit": -6.355773758274896,
+      "r2": 0.23021263375135104
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "temp_mean_c",
+      "coef": 0.037677945799029236,
+      "p": 0.48667947910540155,
+      "pct_per_unit": 3.839675898352213,
+      "r2": 0.23170548267366797
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "coef": 0.03567333267139003,
+      "p": 0.48819770877670277,
+      "pct_per_unit": 3.631726020041315,
+      "r2": 0.22918328251588516
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_mm",
+      "coef": 0.0029450844224282458,
+      "p": 0.5832813659665399,
+      "pct_per_unit": 0.29494254440680656,
+      "r2": 0.22846856892555345
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "coef": -0.08679074610564133,
+      "p": 0.6659740891905139,
+      "pct_per_unit": -8.313106604395903,
+      "r2": 0.2325477047298442
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "cold_days",
+      "coef": -0.03611421930934225,
+      "p": 0.8154404516256346,
+      "pct_per_unit": -3.5469880772828866,
+      "r2": 0.22887131550471973
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "coef": -0.010664018216882648,
+      "p": 0.9001365962767517,
+      "pct_per_unit": -1.0607359157884466,
+      "r2": 0.22762051243927262
+    }
+  ],
+  "S2_ummels": [
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days_roll2w",
+      "r_season_adj": -0.16575882583379384,
+      "p": 0.035028075739016215,
+      "n": 162
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days_roll2w",
+      "r_season_adj": 0.07132941015051768,
+      "p": 0.3670597585213501,
+      "n": 162
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heavy_rain_days_roll4w",
+      "r_season_adj": -0.06633926516002787,
+      "p": 0.40457861690813296,
+      "n": 160
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "bad_days_roll2w",
+      "r_season_adj": -0.06312598797186501,
+      "p": 0.4248488354984686,
+      "n": 162
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heavy_rain_days_roll2w",
+      "r_season_adj": -0.04842214492864976,
+      "p": 0.5406039813955771,
+      "n": 162
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days_roll3w",
+      "r_season_adj": 0.0411121009060591,
+      "p": 0.6045919315794934,
+      "n": 161
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days_roll3w",
+      "r_season_adj": -0.04078031610510659,
+      "p": 0.607513428892034,
+      "n": 161
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days_roll2w",
+      "r_season_adj": 0.03965208666295107,
+      "p": 0.6163868392292583,
+      "n": 162
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days_roll4w",
+      "r_season_adj": -0.03252302417346057,
+      "p": 0.6830756125882678,
+      "n": 160
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days_roll4w",
+      "r_season_adj": 0.02716247475919362,
+      "p": 0.7331411125018581,
+      "n": 160
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "bad_days_roll4w",
+      "r_season_adj": -0.02655016131256592,
+      "p": 0.7389369039873894,
+      "n": 160
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "bad_days_roll3w",
+      "r_season_adj": 0.025131665142448335,
+      "p": 0.751660690145494,
+      "n": 161
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days_roll3w",
+      "r_season_adj": -0.018734826803384137,
+      "p": 0.8135205569918307,
+      "n": 161
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heavy_rain_days_roll3w",
+      "r_season_adj": -0.016044387464183484,
+      "p": 0.8399111052006707,
+      "n": 161
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days_roll4w",
+      "r_season_adj": 0.006935514050058515,
+      "p": 0.9306387022104878,
+      "n": 160
+    }
+  ],
+  "S3_ummels": [
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 3,
+      "r": -0.1541722786562679,
+      "p": 0.05159402807854731
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 2,
+      "r": -0.13962065707095328,
+      "p": 0.07732100516850078
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 7,
+      "r": 0.14056451315860624,
+      "p": 0.0800784953556101
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 3,
+      "r": 0.1367962940415193,
+      "p": 0.08454502796451276
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 0,
+      "r": 0.11540807064869416,
+      "p": 0.14237644197747776
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 7,
+      "r": -0.10473040592712686,
+      "p": 0.19320939569485424
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 2,
+      "r": 0.09147690683344487,
+      "p": 0.2484635809601644
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 2,
+      "r": 0.0833760451582762,
+      "p": 0.29302336586924305
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 6,
+      "r": -0.08388067937376283,
+      "p": 0.29627029309075553
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 3,
+      "r": 0.07100371105626711,
+      "p": 0.3722758085362078
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 1,
+      "r": 0.06897881009844356,
+      "p": 0.3831004561036971
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 4,
+      "r": -0.06905405956400106,
+      "p": 0.38709298414786775
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 6,
+      "r": 0.0642891774971421,
+      "p": 0.42375025946186007
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 0,
+      "r": -0.062412408272403366,
+      "p": 0.4286709550891265
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 4,
+      "r": 0.06269706777707401,
+      "p": 0.4323861910014649
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 6,
+      "r": -0.05038918420366811,
+      "p": 0.5308378064577087
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 8,
+      "r": 0.05027761678801872,
+      "p": 0.5344170145773508
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 7,
+      "r": -0.04558034722335053,
+      "p": 0.5720645520768072
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 8,
+      "r": -0.04189476809443204,
+      "p": 0.604743685209882
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 1,
+      "r": -0.040937322417546634,
+      "p": 0.6049961821543762
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 5,
+      "r": -0.03784102018073982,
+      "p": 0.6368935819481909
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 4,
+      "r": -0.03459259601085606,
+      "p": 0.6650990743237386
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 5,
+      "r": 0.033690307496547243,
+      "p": 0.6743120690647443
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 6,
+      "r": 0.03378592469101695,
+      "p": 0.6744317857809801
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 2,
+      "r": 0.03045463636181184,
+      "p": 0.7013460878417395
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 7,
+      "r": 0.0285893255902356,
+      "p": 0.7231281759438829
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 1,
+      "r": 0.027027461187388146,
+      "p": 0.7328009821818849
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 5,
+      "r": -0.024738247686872734,
+      "p": 0.7576767244840749
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 1,
+      "r": 0.021188181804463236,
+      "p": 0.788989314427925
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 0,
+      "r": 0.02071817261172806,
+      "p": 0.7929325615234013
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 8,
+      "r": 0.02009982197475,
+      "p": 0.8039485278493677
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 0,
+      "r": 0.018902675684032037,
+      "p": 0.8107199667709751
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 5,
+      "r": 0.014236217116958308,
+      "p": 0.8590885110936651
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 8,
+      "r": 0.012302029929543217,
+      "p": 0.8792460721534866
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 4,
+      "r": 0.0077621971642826155,
+      "p": 0.9226416071263805
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 3,
+      "r": -0.00014866255479042853,
+      "p": 0.9985113836758931
+    }
+  ],
+  "S4_ummels": [
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "r": -0.14198275563313745,
+      "p": 0.07061670483898985
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "cold_days",
+      "r": -0.1284148981562917,
+      "p": 0.10233335057473948
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "r": 0.11317789203161815,
+      "p": 0.15030232515916328
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "temp_mean_c",
+      "r": 0.08369913279915815,
+      "p": 0.2881266093073371
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_mm",
+      "r": 0.053009215867867054,
+      "p": 0.5015578036399517
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "windy_days",
+      "r": -0.04033637693010568,
+      "p": 0.6091933182873056
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_days",
+      "r": 0.035887403522921316,
+      "p": 0.6492530290426038
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heavy_rain_days",
+      "r": -0.030654571355791818,
+      "p": 0.6976825101493619
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "r": -0.016208414093870225,
+      "p": 0.8372939055919366
+    }
+  ],
+  "S5_ummels": [
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "active_days",
+      "weather_metric": "heat_days",
+      "r_season_adj": -0.17781163809951864,
+      "p": 0.023158913802270246
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "active_days",
+      "weather_metric": "workable_days",
+      "r_season_adj": 0.161656492312403,
+      "p": 0.039246949664239576
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "invoice_lines",
+      "weather_metric": "frost_days",
+      "r_season_adj": -0.1547674867741269,
+      "p": 0.04853719824519529
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "active_days",
+      "weather_metric": "frost_days",
+      "r_season_adj": -0.15362646104547684,
+      "p": 0.05023991966628328
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "active_days",
+      "weather_metric": "rain_days",
+      "r_season_adj": 0.06431179482954519,
+      "p": 0.4147267406378215
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "invoice_lines",
+      "weather_metric": "workable_days",
+      "r_season_adj": 0.05340464764056892,
+      "p": 0.49836723691121865
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "invoice_lines",
+      "weather_metric": "rain_days",
+      "r_season_adj": 0.04489514751908072,
+      "p": 0.569316266048835
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "invoice_lines",
+      "weather_metric": "windy_days",
+      "r_season_adj": 0.03491937881067587,
+      "p": 0.6581094929939779
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "invoice_lines",
+      "weather_metric": "heat_days",
+      "r_season_adj": 0.03443681718120141,
+      "p": 0.6625423676070934
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Peter Ummels (Brunssum)",
+      "target": "active_days",
+      "weather_metric": "windy_days",
+      "r_season_adj": -0.019338144462820183,
+      "p": 0.8064442362972769
+    }
+  ],
+  "S6_ummels": [
+    {
+      "strategy": "S6_extreme",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "workable_days",
+      "n_extreme": 38,
+      "rev_gap_eur": -13529,
+      "p": 0.2992
+    },
+    {
+      "strategy": "S6_extreme",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "rain_mm",
+      "n_extreme": 17,
+      "rev_gap_eur": 63207,
+      "p": 0.3546
+    },
+    {
+      "strategy": "S6_extreme",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "frost_days",
+      "n_extreme": 22,
+      "rev_gap_eur": -24476,
+      "p": 0.3913
+    },
+    {
+      "strategy": "S6_extreme",
+      "label": "Peter Ummels (Brunssum)",
+      "weather_metric": "heat_days",
+      "n_extreme": 26,
+      "rev_gap_eur": 28805,
+      "p": 0.7356
+    }
+  ],
+  "S1_gilde": [
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "coef": 0.08100796495467347,
+      "p": 0.20135571931735674,
+      "pct_per_unit": 8.437953356619744,
+      "r2": 0.17899835228206007
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "cold_days",
+      "coef": -0.13984448378651157,
+      "p": 0.2907832345748963,
+      "pct_per_unit": -13.050655478687334,
+      "r2": 0.18953496109003265
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "windy_days",
+      "coef": 0.2506097054281442,
+      "p": 0.2920058782542426,
+      "pct_per_unit": 28.480853266494254,
+      "r2": 0.17146310920118202
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "coef": -0.16762648853807036,
+      "p": 0.32035926063910913,
+      "pct_per_unit": -15.433035699335795,
+      "r2": 0.18824211550185632
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "temp_mean_c",
+      "coef": 0.05614082298854223,
+      "p": 0.3785607695966007,
+      "pct_per_unit": 5.774662829027277,
+      "r2": 0.1792300904415327
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "coef": 0.10373787399353321,
+      "p": 0.41206536144368133,
+      "pct_per_unit": 10.930963789657877,
+      "r2": 0.17295226468626546
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "coef": 0.028655685874632242,
+      "p": 0.6032560784288091,
+      "pct_per_unit": 2.9070210059533252,
+      "r2": 0.1720322752767477
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_mm",
+      "coef": -0.0007633528232497133,
+      "p": 0.9274831076686022,
+      "pct_per_unit": -0.0763061543604393,
+      "r2": 0.17099033938976937
+    },
+    {
+      "strategy": "S1_fixed_effects",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heavy_rain_days",
+      "coef": -0.010647588122826401,
+      "p": 0.938070018037737,
+      "pct_per_unit": -1.0591103210193853,
+      "r2": 0.17100563119369483
+    }
+  ],
+  "S2_gilde": [
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days_roll2w",
+      "r_season_adj": 0.22203737693856623,
+      "p": 0.003514464175532485,
+      "n": 171
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "bad_days_roll2w",
+      "r_season_adj": -0.22044139095547968,
+      "p": 0.003764746356309048,
+      "n": 171
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days_roll3w",
+      "r_season_adj": 0.173356615856619,
+      "p": 0.02377396089259275,
+      "n": 170
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "bad_days_roll3w",
+      "r_season_adj": -0.17129822244554324,
+      "p": 0.025515171364631186,
+      "n": 170
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days_roll2w",
+      "r_season_adj": -0.15041962389784141,
+      "p": 0.04955882324795185,
+      "n": 171
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days_roll3w",
+      "r_season_adj": -0.14378161859559327,
+      "p": 0.06140288877695009,
+      "n": 170
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days_roll4w",
+      "r_season_adj": 0.13008167457311448,
+      "p": 0.091857228819809,
+      "n": 169
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "bad_days_roll4w",
+      "r_season_adj": -0.12825949288582278,
+      "p": 0.09653890085221312,
+      "n": 169
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days_roll2w",
+      "r_season_adj": -0.12120184898609856,
+      "p": 0.11430803646971016,
+      "n": 171
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days_roll4w",
+      "r_season_adj": -0.09616373399186944,
+      "p": 0.2135971246189491,
+      "n": 169
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days_roll3w",
+      "r_season_adj": -0.09187594585352174,
+      "p": 0.23341824344604056,
+      "n": 170
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days_roll4w",
+      "r_season_adj": -0.07903530333170213,
+      "p": 0.3070497117303983,
+      "n": 169
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heavy_rain_days_roll2w",
+      "r_season_adj": -0.03950622788360485,
+      "p": 0.6079358214227217,
+      "n": 171
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heavy_rain_days_roll3w",
+      "r_season_adj": 0.005209066880414559,
+      "p": 0.9462495096266896,
+      "n": 170
+    },
+    {
+      "strategy": "S2_distributed_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heavy_rain_days_roll4w",
+      "r_season_adj": -0.0029810548423999106,
+      "p": 0.9693159981103243,
+      "n": 169
+    }
+  ],
+  "S3_gilde": [
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 1,
+      "r": -0.18230851070270115,
+      "p": 0.017007620220259454
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 8,
+      "r": 0.18319292385796523,
+      "p": 0.018875751058105374
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 0,
+      "r": -0.17211305964540358,
+      "p": 0.023967068437427238
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 1,
+      "r": 0.1691975372241121,
+      "p": 0.026946493139084423
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 6,
+      "r": -0.1654824291084928,
+      "p": 0.0331143778297632
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 0,
+      "r": 0.12195198902215683,
+      "p": 0.11100838725136909
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 5,
+      "r": -0.11643769236678204,
+      "p": 0.13400165147369486
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 8,
+      "r": -0.09891409177764714,
+      "p": 0.2076252829622175
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 5,
+      "r": -0.09619173608241054,
+      "p": 0.21623403715083278
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 7,
+      "r": -0.09589213475639694,
+      "p": 0.22049303375751605
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 7,
+      "r": 0.09479882582853541,
+      "p": 0.22582441139602336
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 2,
+      "r": -0.09132900262042735,
+      "p": 0.23622463796304846
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 0,
+      "r": 0.07714496476614369,
+      "p": 0.3144785421868587
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 4,
+      "r": -0.0744120638474948,
+      "p": 0.3377505040559187
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 7,
+      "r": -0.07479940106285903,
+      "p": 0.3396536960866291
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 8,
+      "r": -0.0675446847681157,
+      "p": 0.3901420485341994
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 4,
+      "r": 0.06510697941608963,
+      "p": 0.4017653908398561
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 8,
+      "r": -0.06406311992031953,
+      "p": 0.4150890994832709
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 3,
+      "r": 0.05954602273582227,
+      "p": 0.44187202143463994
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 5,
+      "r": 0.05518426074112148,
+      "p": 0.47874564222222976
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 5,
+      "r": 0.047497399593708495,
+      "p": 0.5421694749418144
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 6,
+      "r": 0.044286701974782273,
+      "p": 0.571012666836397
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 2,
+      "r": 0.04203573807136501,
+      "p": 0.5862516004442622
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 3,
+      "r": -0.038528194332317675,
+      "p": 0.6189535774050551
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 3,
+      "r": -0.037247491527616215,
+      "p": 0.6306653671880033
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 6,
+      "r": -0.031339810837190694,
+      "p": 0.6885433985088156
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 4,
+      "r": -0.02924745393867867,
+      "p": 0.7066637395925975
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 1,
+      "r": 0.027870767988788868,
+      "p": 0.7174605924113401
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 3,
+      "r": -0.025218446328282722,
+      "p": 0.7448341383038797
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 4,
+      "r": -0.022241956264232567,
+      "p": 0.7747465981818717
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 7,
+      "r": -0.013514921960605695,
+      "p": 0.8632092260337646
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "lag_weeks": 6,
+      "r": -0.011446755640911459,
+      "p": 0.8836281202977124
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 1,
+      "r": -0.009653827318228232,
+      "p": 0.9002724642021029
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "lag_weeks": 2,
+      "r": 0.009466036782107067,
+      "p": 0.9024918305925429
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "lag_weeks": 0,
+      "r": -0.006458788257384584,
+      "p": 0.9329853337559396
+    },
+    {
+      "strategy": "S3_forward_lag",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "lag_weeks": 2,
+      "r": 0.002888166392748731,
+      "p": 0.9701825550189598
+    }
+  ],
+  "S4_gilde": [
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "r": -0.20823059871826904,
+      "p": 0.006123043818609102
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "cold_days",
+      "r": -0.20746073582141097,
+      "p": 0.00631889955028202
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "temp_mean_c",
+      "r": 0.12587957582613654,
+      "p": 0.09988554127065721
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "r": 0.12124952945046716,
+      "p": 0.11309619331708548
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heavy_rain_days",
+      "r": 0.048885113889068826,
+      "p": 0.5242367633983008
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "r": 0.027943435448185346,
+      "p": 0.7159524654214275
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_mm",
+      "r": 0.023674017820177293,
+      "p": 0.7578836970816453
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "windy_days",
+      "r": 0.022564824049874865,
+      "p": 0.7688997350560752
+    },
+    {
+      "strategy": "S4_deseason_detrend",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_days",
+      "r": 0.01509978675155775,
+      "p": 0.8441413265779247
+    }
+  ],
+  "S5_gilde": [
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "active_days",
+      "weather_metric": "frost_days",
+      "r_season_adj": -0.0906146906989956,
+      "p": 0.237138815179793
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "active_days",
+      "weather_metric": "workable_days",
+      "r_season_adj": 0.06916875968887562,
+      "p": 0.36726649375625614
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "invoice_lines",
+      "weather_metric": "frost_days",
+      "r_season_adj": -0.06341374691308224,
+      "p": 0.4085594636574349
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "invoice_lines",
+      "weather_metric": "rain_days",
+      "r_season_adj": 0.06089234551990771,
+      "p": 0.42748128364923754
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "invoice_lines",
+      "weather_metric": "windy_days",
+      "r_season_adj": 0.05888880061771489,
+      "p": 0.4428710745632291
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "active_days",
+      "weather_metric": "heat_days",
+      "r_season_adj": 0.02628336116235181,
+      "p": 0.7321637653687247
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "active_days",
+      "weather_metric": "rain_days",
+      "r_season_adj": 0.023748670889970208,
+      "p": 0.7571439942877337
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "invoice_lines",
+      "weather_metric": "workable_days",
+      "r_season_adj": -0.022612192266306612,
+      "p": 0.7684283300646246
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "invoice_lines",
+      "weather_metric": "heat_days",
+      "r_season_adj": -0.01053519268249227,
+      "p": 0.890901117185815
+    },
+    {
+      "strategy": "S5_activity",
+      "label": "Gilde GB (Valkenswaard)",
+      "target": "active_days",
+      "weather_metric": "windy_days",
+      "r_season_adj": -0.009279930605936619,
+      "p": 0.9038333774564262
+    }
+  ],
+  "S6_gilde": [
+    {
+      "strategy": "S6_extreme",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "rain_mm",
+      "n_extreme": 18,
+      "rev_gap_eur": 66888,
+      "p": 0.1858
+    },
+    {
+      "strategy": "S6_extreme",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "heat_days",
+      "n_extreme": 24,
+      "rev_gap_eur": 46369,
+      "p": 0.2939
+    },
+    {
+      "strategy": "S6_extreme",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "frost_days",
+      "n_extreme": 24,
+      "rev_gap_eur": -26120,
+      "p": 0.3828
+    },
+    {
+      "strategy": "S6_extreme",
+      "label": "Gilde GB (Valkenswaard)",
+      "weather_metric": "workable_days",
+      "n_extreme": 38,
+      "rev_gap_eur": -38899,
+      "p": 0.5267
+    }
+  ],
+  "S7_panel": [
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "workable_days",
+      "coef": 0.10425622523585677,
+      "p": 0.030317785817294947,
+      "pct_per_unit": 10.988479898035685,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "temp_mean_c",
+      "coef": 0.05232518931899223,
+      "p": 0.21388617780399233,
+      "pct_per_unit": 5.3718344755991465,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "windy_days",
+      "coef": -1.1542803461344584,
+      "p": 0.24931671566244273,
+      "pct_per_unit": -68.47156491182969,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "frost_days",
+      "coef": -0.1287375914853525,
+      "p": 0.32216940505632075,
+      "pct_per_unit": -12.079535393676188,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "cold_days",
+      "coef": -0.09544368277893918,
+      "p": 0.3560740088918525,
+      "pct_per_unit": -9.103044914862613,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "heat_days",
+      "coef": 0.06275446787987632,
+      "p": 0.40973802969135253,
+      "pct_per_unit": 6.476537303396879,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "rain_days",
+      "coef": 0.031879092253018146,
+      "p": 0.42390373658407554,
+      "pct_per_unit": 3.2392673486551615,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "heavy_rain_days",
+      "coef": -0.04661903357751336,
+      "p": 0.5633029824927254,
+      "pct_per_unit": -4.554905790230102,
+      "n": 335
+    },
+    {
+      "strategy": "S7_panel",
+      "label": "POOLED(2)",
+      "weather_metric": "rain_mm",
+      "coef": 0.0015116079611668595,
+      "p": 0.7695287840328051,
+      "pct_per_unit": 0.15127510163588376,
+      "n": 335
+    }
+  ]
+}

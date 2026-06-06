@@ -1,0 +1,5 @@
+company,scenario,workable_days,expected_revenue,low80,high80,pct_per_workable_day,extrapolated
+Peter Ummels (Brunssum),GOOD month (24 workable days),24,1746300,1055987,2887879,3.9,True
+Peter Ummels (Brunssum),POOR month (14 workable days),14,1188135,718465,1964834,3.9,True
+Gilde GB (Valkenswaard),GOOD month (24 workable days),24,1625293,1082211,2440905,1.0,True
+Gilde GB (Valkenswaard),POOR month (14 workable days),14,1473546,981170,2213008,1.0,True

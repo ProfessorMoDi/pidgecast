@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Tooling artifacts
+.playwright-mcp/
+
+# Raw client financial data — intentionally NOT versioned
+/portfolio company data/
+/portfolio company 2 data/
+/datasets/
+
+# Pidgecast app is tracked in its own git repository
+/pidgecast/

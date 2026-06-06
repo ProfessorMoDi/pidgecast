@@ -1,0 +1,33 @@
+{
+  "company": "Dakdekkersbedrijf Peter Ummels (portfolio company 2)",
+  "location": "Brunssum 6442PB (50.947, 5.972)",
+  "date_range": "2023-01-15 .. 2026-06-02",
+  "transactions": 9752,
+  "total_revenue_eur": 35775926.24,
+  "weeks_analyzed": 163,
+  "months_analyzed": 42,
+  "strongest_weekly_lag0": {
+    "weather_metric": "frost_days",
+    "lag_weeks": 0,
+    "n": 163,
+    "pearson_r": -0.22991223349235906,
+    "pearson_p": 0.0031532635879246464,
+    "spearman_r": -0.2126394860363946,
+    "spearman_p": 0.006427352854597385
+  },
+  "strongest_weekly_any_lag": {
+    "weather_metric": "frost_days",
+    "lag_weeks": 0,
+    "n": 163,
+    "pearson_r": -0.22991223349235906,
+    "pearson_p": 0.0031532635879246464,
+    "spearman_r": -0.2126394860363946,
+    "spearman_p": 0.006427352854597385
+  },
+  "strongest_month_adjusted": {
+    "weather_metric": "workable_days",
+    "r_month_adj": 0.14700897832129922,
+    "p_month_adj": 0.06111976499518716,
+    "n": 163
+  }
+}

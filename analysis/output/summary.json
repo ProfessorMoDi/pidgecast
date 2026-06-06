@@ -1,0 +1,25 @@
+{
+  "ledger": "Gilde GB (portfolio company data)",
+  "location": "Valkenswaard (51.35, 5.46)",
+  "weeks_analyzed": 172,
+  "strongest_contemporaneous": {
+    "weather_metric": "frost_days",
+    "lag_weeks": 0,
+    "n_weeks": 172,
+    "pearson_r": -0.2730634762392087,
+    "pearson_p": 0.00028985325255428046,
+    "spearman_r": -0.2656002986797548,
+    "spearman_p": 0.00042931109468228516
+  },
+  "strongest_any_lag": {
+    "weather_metric": "frost_days",
+    "lag_weeks": 0,
+    "n_weeks": 172,
+    "pearson_r": -0.2730634762392087,
+    "pearson_p": 0.00028985325255428046,
+    "spearman_r": -0.2656002986797548,
+    "spearman_p": 0.00042931109468228516
+  },
+  "monthly_spearman_revenue_vs_rain_days": 0.20850370402506227,
+  "monthly_spearman_revenue_vs_temp": 0.1456445993031359
+}

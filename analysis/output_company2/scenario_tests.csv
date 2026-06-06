@@ -1,0 +1,15 @@
+scenario,lag_weeks,n_match,n_other,median_rev_match,median_rev_other,pct_vs_other,pct_vs_overall,mannwhitney_p
+heavy_rain_week (>=2 heavy-rain days),0,58,105,198403,198035,0.2,0.2,0.9296
+heavy_rain_week (>=2 heavy-rain days),1,58,104,208003,191080,8.9,5.0,0.8163
+wet_week (>=4 rain days),0,63,100,223332,185977,20.1,12.8,0.6738
+wet_week (>=4 rain days),1,63,99,226901,182863,24.1,14.6,0.2853
+frost_week (>=2 frost days),0,30,133,137194,217892,-37.0,-30.7,0.0059
+frost_week (>=2 frost days),1,30,132,148520,214462,-30.7,-25.0,0.0647
+cold_week (>=3 cold days),0,32,131,148520,208009,-28.6,-25.0,0.0581
+cold_week (>=3 cold days),1,32,130,175465,205823,-14.7,-11.4,0.4916
+heat_week (>=2 hot days >=28C),0,14,149,168718,202602,-16.7,-14.8,0.8104
+heat_week (>=2 hot days >=28C),1,14,148,246454,200318,23.0,24.4,0.5773
+storm_week (>=1 storm day),0,61,102,204973,195223,5.0,3.5,0.1183
+storm_week (>=1 storm day),1,61,101,192412,202602,-5.0,-2.8,0.5661
+good_week (>=6 workable days),0,22,141,200837,192412,4.4,1.4,0.1972
+good_week (>=6 workable days),1,22,140,162211,203120,-20.1,-18.1,0.6546

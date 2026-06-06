@@ -1,0 +1,5 @@
+company,week_of,workable_days,expected_revenue,low80,high80,extrapolated,pct_per_workable_day,scenario
+Peter Ummels (Brunssum),2026-07-06,7,641547,109935,3743851,True,12.4,GOOD week (7)
+Peter Ummels (Brunssum),2026-07-06,2,357360,61237,2085435,True,12.4,BAD week (2)
+Gilde GB (Valkenswaard),2026-07-06,7,206929,31518,1358569,True,9.3,GOOD week (7)
+Gilde GB (Valkenswaard),2026-07-06,2,132903,20243,872560,True,9.3,BAD week (2)
