@@ -1,0 +1,15 @@
+{
+  "name": "pidgecast-monorepo",
+  "private": true,
+  "description": "Pidgecast — weather-aware revenue forecasting (Altis Groep Challenge)",
+  "scripts": {
+    "dev": "npm run dev --prefix pidgecast",
+    "build": "npm run build --prefix pidgecast",
+    "start": "npm run start --prefix pidgecast",
+    "lint": "npm run lint --prefix pidgecast",
+    "postinstall": "npm install --prefix pidgecast"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

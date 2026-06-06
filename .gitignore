@@ -1,14 +1,35 @@
 # OS / editor
 .DS_Store
+*.pem
 
 # Python
 .venv/
+venv/
 __pycache__/
 *.pyc
 *.pyo
+.pytest_cache/
 
-# Node
-node_modules/
+# Node — pidgecast app
+pidgecast/node_modules/
+pidgecast/.next/
+pidgecast/out/
+pidgecast/build/
+pidgecast/.vercel/
+pidgecast/*.tsbuildinfo
+pidgecast/next-env.d.ts
+pidgecast/.pnp
+pidgecast/.pnp.*
+pidgecast/coverage/
+pidgecast/npm-debug.log*
+pidgecast/yarn-debug.log*
+pidgecast/yarn-error.log*
+pidgecast/.pnpm-debug.log*
+
+# Env (never commit secrets)
+.env
+.env.*
+!.env.example
 
 # Tooling artifacts
 .playwright-mcp/
@@ -17,6 +38,3 @@ node_modules/
 /portfolio company data/
 /portfolio company 2 data/
 /datasets/
-
-# Pidgecast app is tracked in its own git repository
-/pidgecast/
